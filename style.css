@@ -7,6 +7,26 @@
 
 }
 
-p {
-    font-family: "norsebold", sans-serif;
+body {
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+
+div {
+    border: dotted black;
+}
+
+
+div.banner {
+    width: 35%;
+    height: 100vh;
+}
+
+div.content {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 100vh;
+
 }
