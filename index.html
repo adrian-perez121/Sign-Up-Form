@@ -20,6 +20,58 @@
 </div>
 
 <div class="content">
+    <p class="disclaimer">
+        This is not a real online service!
+        You know you need something like this in
+        your life to help you realize your deepest dreams. <br>
+
+        Sign up <span class="italic">now</span> to get started. <br>
+        <br>
+        You <span class="italic">know</span> you want to.
+    </p>
+
+    <div class="user_info">
+        <span>Let's do this!</span>
+
+        <form action="something" method="post">
+            <ul>
+                <li>
+                    <label for="fname">FIRST NAME</label>
+                    <input type="text" name="name" id="fname">
+                </li>
+                <li>
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email">
+                </li>
+                <li>
+                    <label for="password">PASSWORD</label>
+                    <input type="password" name="password" id="password" pattern=".{8,}" minlength="8">
+                    <span></span>
+                </li>
+            </ul>
+            
+            <ul>
+                <li>
+                    <label for="lname">LAST NAME</label>
+                    <input type="text" name="lname" id="lname">
+                </li>
+                <li>
+                    <label for="phnumber">PHONE NUMBER</label>
+                    <input type="tel" name="phnumber" id="phnumber">
+                </li>
+                <li>
+                    <label for="confpass">CONFIRM PASSWORD</label>
+                    <input type="password" name="confpass" id="confpass" pattern=".{8,}" minlength="8">
+                </li>
+            </ul>
+
+        </form>
+
+    </div>
+
+    <button type="submit">Create Account</button>
+
+    <span class="login">Already have an account? <span class="green">Log in</span></span>
 </div>
 </body>
 </html>
